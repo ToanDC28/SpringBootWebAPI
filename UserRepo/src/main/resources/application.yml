@@ -1,0 +1,82 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/FMS
+    username: admin
+    password: 12345
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  application:
+    name: user-api
+  redis:
+    host: localhost
+    port: 6379
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: tuantest123abcd@gmail.com
+    password: pzasugujkkdotqyh
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  servlet:
+    multipart:
+      max-file-size: 2MB
+      max-request-size: 2MB
+server:
+  port: 8764
+  servlet:
+    context-path: /user-service
+#eureka
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://eureka-server-env.eba-cim7vrij.ap-northeast-1.elasticbeanstalk.com/eureka
+#fms.cyfs9uuvm2c7.ap-northeast-1.rds.amazonaws.com
+#aws
+aws:
+  region: ap-northeast-1
+  s3:
+    bucket:
+      customer: my-avatar
+
+cloud:
+  aws:
+    credentials:
+      access-key: AKIASM2WECLH7AZGDAUV
+      secret-key: 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
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+  security:
+    enabled: false
+
+format:
+  permission: permission-list
+  user: user-list
+  date: yyyy/MM/dd
+  avatar: profileImage/
+  avatar-address: https://my-avatar.s3.ap-northeast-1.amazonaws.com/
+  email: ^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$
+  password: ^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$
+#  training: http://training-service-env.eba-qdz2same.ap-northeast-1.elasticbeanstalk.com/training-program-service/api/trainingProgram
+#  class: http://class-service-env.eba-vfkp2siv.ap-northeast-1.elasticbeanstalk.com/class-management/api/class
+  training: http://localhost:8769/training-program-service/api/trainingProgram
+  class: http://localhost:8765/class-management/api/class
+jwt:
+  secret-key: O4fFTOlJeOaUpmLtRBBraD7OzoKWvvLp26A5789CA94F3CA7836489F698741
+
+
+#    url: jdbc:mysql://fms.cyfs9uuvm2c7.ap-northeast-1.rds.amazonaws.com:3306/FMS
+#    username: fms
+#    password: toandc123

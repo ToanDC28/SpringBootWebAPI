@@ -1,0 +1,117 @@
+08:39:48 INFO  TrainingProgramRepoApplication:55 - Starting TrainingProgramRepoApplication using Java 11.0.19 on LAPTOP-V40J0896 with PID 5936 (D:\FPT_Intern\training-program-repo\target\classes started by ADMIN in D:\FPT_Intern\eureka-repo)
+08:39:49 INFO  TrainingProgramRepoApplication:631 - No active profile set, falling back to 1 default profile: "default"
+08:39:49 INFO  DevToolsPropertyDefaultsPostProcessor:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+08:39:49 INFO  DevToolsPropertyDefaultsPostProcessor:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+08:39:51 INFO  RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08:39:51 INFO  RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 99 ms. Found 2 JPA repository interfaces.
+08:39:52 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8769 (http)
+08:39:52 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8769"]
+08:39:52 INFO  StandardService:173 - Starting service [Tomcat]
+08:39:52 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.80]
+08:39:53 INFO  [/training-program-service]:173 - Initializing Spring embedded WebApplicationContext
+08:39:53 INFO  ServletWebServerApplicationContext:292 - Root WebApplicationContext: initialization completed in 4072 ms
+08:39:53 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+08:39:53 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.15.Final
+08:39:54 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08:39:54 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+08:39:56 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+08:39:56 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+08:39:58 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08:39:58 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08:40:01 WARN  JpaBaseConfiguration$JpaWebConfiguration:223 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08:40:04 WARN  OptionalLiveReloadServer:62 - Unable to start LiveReload server
+08:40:04 INFO  EndpointLinksResolver:58 - Exposing 1 endpoint(s) beneath base path '/actuator'
+08:40:04 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8769"]
+08:40:04 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8769 (http) with context path '/training-program-service'
+08:40:05 INFO  TrainingProgramRepoApplication:61 - Started TrainingProgramRepoApplication in 17.823 seconds (JVM running for 20.698)
+08:40:06 INFO  [/training-program-service]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:40:06 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+08:40:06 INFO  DispatcherServlet:547 - Completed initialization in 17 ms
+08:41:32 INFO  TrainingProgramService:170 - Create class successfully
+08:41:32 INFO  TrainingProgramController:103 - create successfully
+08:43:48 INFO  LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+08:43:48 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+08:43:49 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+09:15:39 INFO  TrainingProgramRepoApplication:55 - Starting TrainingProgramRepoApplication using Java 11.0.19 on LAPTOP-V40J0896 with PID 10376 (D:\FPT_Intern\training-program-repo\target\classes started by ADMIN in D:\FPT_Intern\eureka-repo)
+09:15:39 INFO  TrainingProgramRepoApplication:631 - No active profile set, falling back to 1 default profile: "default"
+09:15:39 INFO  DevToolsPropertyDefaultsPostProcessor:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:15:39 INFO  DevToolsPropertyDefaultsPostProcessor:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+09:15:41 INFO  RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09:15:42 INFO  RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 142 ms. Found 2 JPA repository interfaces.
+09:15:43 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8769 (http)
+09:15:43 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8769"]
+09:15:43 INFO  StandardService:173 - Starting service [Tomcat]
+09:15:43 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.80]
+09:15:43 INFO  [/training-program-service]:173 - Initializing Spring embedded WebApplicationContext
+09:15:43 INFO  ServletWebServerApplicationContext:292 - Root WebApplicationContext: initialization completed in 3680 ms
+09:15:44 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+09:15:44 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.15.Final
+09:15:44 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+09:15:44 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+09:15:46 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+09:15:46 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+09:15:48 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:15:48 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09:15:51 WARN  JpaBaseConfiguration$JpaWebConfiguration:223 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+09:15:55 WARN  OptionalLiveReloadServer:62 - Unable to start LiveReload server
+09:15:55 INFO  EndpointLinksResolver:58 - Exposing 1 endpoint(s) beneath base path '/actuator'
+09:15:55 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8769"]
+09:15:55 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8769 (http) with context path '/training-program-service'
+09:15:56 INFO  TrainingProgramRepoApplication:61 - Started TrainingProgramRepoApplication in 18.719 seconds (JVM running for 21.966)
+09:15:58 INFO  [/training-program-service]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:15:58 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+09:15:58 INFO  DispatcherServlet:547 - Completed initialization in 6 ms
+09:16:08 INFO  ClassRepoApplication:55 - Starting ClassRepoApplication using Java 11.0.19 on LAPTOP-V40J0896 with PID 19116 (D:\FPT_Intern\class-repo\target\classes started by ADMIN in D:\FPT_Intern\eureka-repo)
+09:16:08 INFO  ClassRepoApplication:631 - No active profile set, falling back to 1 default profile: "default"
+09:16:09 INFO  DevToolsPropertyDefaultsPostProcessor:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:16:09 INFO  DevToolsPropertyDefaultsPostProcessor:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+09:16:11 INFO  RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09:16:11 INFO  RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 91 ms. Found 5 JPA repository interfaces.
+09:16:12 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8765 (http)
+09:16:12 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8765"]
+09:16:12 INFO  StandardService:173 - Starting service [Tomcat]
+09:16:12 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.80]
+09:16:12 INFO  [/class-management]:173 - Initializing Spring embedded WebApplicationContext
+09:16:12 INFO  ServletWebServerApplicationContext:292 - Root WebApplicationContext: initialization completed in 3145 ms
+09:16:12 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+09:16:12 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.15.Final
+09:16:12 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+09:16:12 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+09:16:14 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+09:16:14 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+09:16:16 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:16:16 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09:16:16 WARN  UserDetailsServiceAutoConfiguration:89 - 
+
+Using generated security password: 9ce14e6e-fa62-4354-b3e0-c9628b6a6cbe
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+09:16:17 WARN  JpaBaseConfiguration$JpaWebConfiguration:223 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+09:16:17 INFO  DefaultSecurityFilterChain:55 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@310b68c7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6027816c, org.springframework.security.web.context.SecurityContextPersistenceFilter@169c7329, org.springframework.security.web.header.HeaderWriterFilter@5b538f41, org.springframework.web.filter.CorsFilter@4943330e, org.springframework.security.web.authentication.logout.LogoutFilter@200d027, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@ab681c4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ed1543d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d3d79c6, org.springframework.security.web.session.SessionManagementFilter@6b26fd52, org.springframework.security.web.access.ExceptionTranslationFilter@5e40f84b, org.springframework.security.web.access.intercept.AuthorizationFilter@374b5448]
+09:16:17 WARN  OptionalLiveReloadServer:62 - Unable to start LiveReload server
+09:16:18 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8765"]
+09:16:18 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8765 (http) with context path '/class-management'
+09:16:19 INFO  ClassRepoApplication:61 - Started ClassRepoApplication in 11.779 seconds (JVM running for 14.407)
+09:43:07 INFO  [/class-management]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:43:07 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+09:43:07 INFO  DispatcherServlet:547 - Completed initialization in 62 ms
+09:45:53 WARN  ExceptionHandlerExceptionResolver:208 - Resolved [com.example.ClassRepo.exceptions.BadRequestException: Class Code12is existed]
+10:02:24 WARN  ExceptionHandlerExceptionResolver:208 - Resolved [org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"statusCode":404,"message":"Syllabus is not found","timestamp":"2023-12-12T03:02:24.669+00:00"}"]
+10:05:10 WARN  ExceptionHandlerExceptionResolver:208 - Resolved [com.example.ClassRepo.exceptions.ClassDoesNotExistException: Class does not exist]
+10:06:12 WARN  ExceptionHandlerExceptionResolver:208 - Resolved [org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"statusCode":404,"message":"Syllabus is not found","timestamp":"2023-12-12T03:06:12.406+00:00"}"]
+10:09:58 INFO  TrainingProgramService:170 - Create class successfully
+10:09:58 INFO  TrainingProgramController:103 - create successfully
+10:10:10 INFO  TrainingProgramService:170 - Create class successfully
+10:10:10 INFO  TrainingProgramController:103 - create successfully
+10:10:53 INFO  TrainingProgramController:38 - get list successfully
+10:11:22 INFO  TrainingProgramController:38 - get list successfully
+10:13:54 INFO  TrainingProgramService:332 - Activate successfully
+10:14:02 INFO  TrainingProgramController:38 - get list successfully
+10:17:00 INFO  TrainingProgramController:71 - get syllabuses successfully
+10:33:52 INFO  LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+10:33:52 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+10:33:52 INFO  LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+10:33:52 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+10:33:53 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+10:33:53 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.

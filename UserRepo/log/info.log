@@ -1,0 +1,31 @@
+2024/02/19 12:43:02 INFO  Version:21 - HV000001: Hibernate Validator 6.2.5.Final
+2024/02/19 12:43:02 INFO  DevToolsPropertyDefaultsPostProcessor:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024/02/19 12:43:02 INFO  DevToolsPropertyDefaultsPostProcessor:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024/02/19 12:43:04 INFO  RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024/02/19 12:43:04 INFO  RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 85 ms. Found 6 JPA repository interfaces.
+2024/02/19 12:43:05 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8764 (http)
+2024/02/19 12:43:05 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8764"]
+2024/02/19 12:43:05 INFO  StandardService:173 - Starting service [Tomcat]
+2024/02/19 12:43:05 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.80]
+2024/02/19 12:43:05 INFO  [/user-service]:173 - Initializing Spring embedded WebApplicationContext
+2024/02/19 12:43:05 INFO  ServletWebServerApplicationContext:292 - Root WebApplicationContext: initialization completed in 2453 ms
+2024/02/19 12:43:05 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024/02/19 12:43:05 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2024/02/19 12:43:05 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024/02/19 12:43:06 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2024/02/19 12:43:06 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2024/02/19 12:43:07 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024/02/19 12:43:08 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024/02/19 12:43:08 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024/02/19 12:43:09 WARN  JpaBaseConfiguration$JpaWebConfiguration:223 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024/02/19 12:43:10 INFO  EndpointLinksResolver:58 - Exposing 15 endpoint(s) beneath base path '/actuator'
+2024/02/19 12:43:10 INFO  DefaultSecurityFilterChain:55 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7dc48e57, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1c722289, org.springframework.security.web.context.SecurityContextPersistenceFilter@603a7540, org.springframework.security.web.header.HeaderWriterFilter@56c7baf5, org.springframework.web.filter.CorsFilter@4c6f99c, org.springframework.security.web.authentication.logout.LogoutFilter@4d85b5fe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d3f6f54, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62249848, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@778aed11, org.springframework.security.web.session.SessionManagementFilter@64e0c260, org.springframework.security.web.access.ExceptionTranslationFilter@5249c3a1, org.springframework.security.web.access.intercept.AuthorizationFilter@97f2b47]
+2024/02/19 12:43:11 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024/02/19 12:43:11 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8764"]
+2024/02/19 12:43:11 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8764 (http) with context path '/user-service'
+2024/02/19 12:43:12 INFO  [/user-service]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024/02/19 12:43:12 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2024/02/19 12:43:12 INFO  DispatcherServlet:547 - Completed initialization in 2 ms
+2024/02/19 12:44:21 INFO  LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024/02/19 12:44:21 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024/02/19 12:44:21 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.

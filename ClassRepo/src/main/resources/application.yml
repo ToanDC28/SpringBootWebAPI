@@ -1,0 +1,53 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://fms.cyfs9uuvm2c7.ap-northeast-1.rds.amazonaws.com:3306/FMS
+    username: fms
+    password: toandc123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  application:
+    name: class-api
+
+server:
+  port: 8765
+  servlet:
+    context-path: /class-management
+#eureka:
+#  client:
+#    registerWithEureka: true
+#    fetchRegistry: true
+#    serviceUrl:
+#      defaultZone: http://eureka-server-env.eba-cim7vrij.ap-northeast-1.elasticbeanstalk.com/eureka
+
+# Date format
+data:
+  format: "yyyy/MM/dd"
+#  training: http://training-service-env.eba-qdz2same.ap-northeast-1.elasticbeanstalk.com/training-program-service/api/trainingProgram
+#  syllabus: http://syllabus-service-env.eba-ma3ik3wh.ap-northeast-1.elasticbeanstalk.com/syllabus-service/api/syllabus
+#  user: http://user-service-env.eba-b2p73pwz.ap-northeast-1.elasticbeanstalk.com/user-service/api/user
+  training: http://localhost:8769/training-program-service/api/trainingProgram
+  syllabus: http://localhost:8768/syllabus-service/api/syllabus
+  user: http://localhost:8764/user-service/api/user
+
+#
+#spring:
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/FMS
+#    username: root
+#    password: 12345
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#  application:
+#    name: class-api
+#server:
+#  port: 8765
+#  servlet:
+#    context-path: /class-management
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://eureka-server-env-1.eba-nweh2s3g.ap-northeast-1.elasticbeanstalk.com/eureka/

@@ -1,0 +1,44 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/fms_training_program
+    username: root
+    password: 12345
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  application:
+    name: training_program_api
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka
+
+server:
+  port: 8769
+  servlet:
+    context-path: /training-program-service
+
+#aws
+aws:
+  region: ap-northeast-1
+  s3:
+    bucket:
+      customer: my-avatar
+
+cloud:
+  aws:
+    credentials:
+      access-key: AKIASM2WECLH7AZGDAUV
+      secret-key: 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
+
+class-service-url: http://class-service-env.eba-vfkp2siv.ap-northeast-1.elasticbeanstalk.com/class-management/api/class
+syllabus-service-url: http://syllabus-service-env.eba-ma3ik3wh.ap-northeast-1.elasticbeanstalk.com/syllabus-service/api/syllabus
+user-service-url: http://user-service-env.eba-b2p73pwz.ap-northeast-1.elasticbeanstalk.com/user-service/api/user
+date-format: yyyy/MM/dd
